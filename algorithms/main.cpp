@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
-
+#include <string>
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    string str = "asdfasdf";
+    printf("%d\n",str.length());
+    for (int i = 0;i<4;i++){
+        printf("%c\n",str[i]);
+    }
     return 0;
 }
